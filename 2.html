@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Laboratorna10
+    </title>
+
+    <link rel="stylesheet" href="css/jq+css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/js+jq.js"></script>
+    <style>
+
+
+
+    </style>
+</head>
+
+<body>
+ 
+   
+        <div id="oned">
+            <p class="first">
+          <img src="https://usersdogs-ip4weamexa-ew.a.run.app/images/dog/p1.jpeg" alt="Dog1" width="300" height="300" >
+            </p>
+            <p class="first">
+                <i class="1"> </i>
+           
+                <br> <div onclick="tets_assign()" class="button_hola"> <span>Click here</span> </div>
+    
+            </p>
+         </div>
+         <div id="two">
+            <p class="first">
+                <img src="https://usersdogs-ip4weamexa-ew.a.run.app/images/dog/p2.jpeg" alt="Dog2" width="300" height="300" >
+
+            </p>
+            <p class="first">
+                <i class="2"> </i>
+               <br>
+              
+               <div onclick="tets_assign()" class="button_hola"><span>Click here</span></div>
+            </p>
+         </div>
+         <div class="three">
+            <p class="first">
+                <img src="https://usersdogs-ip4weamexa-ew.a.run.app/images/dog/p3.jpeg" alt="Dog3" width="300" height="300" >
+
+            </p>
+            <p class="first">
+                <i class="3"> </i>  
+                <br>
+                <div onclick="tets_assign()" class="button_hola"><span>Click here</span></div>
+             </p>
+         </div>
+         <div class="three">
+            <p class="first">
+                <img src="https://usersdogs-ip4weamexa-ew.a.run.app/images/dog/p4.jpeg" width="300" height="300" >
+
+            </p>
+            <p class="first">
+                <i class="4"> </i> 
+                <br>
+                <div onclick="tets_assign()" class="button_hola"><span>Click here</span></div>
+             </p>
+         </div>
+         <div class="three">
+            <p class="first">
+                <img src="https://usersdogs-ip4weamexa-ew.a.run.app/images/dog/p5.jpeg" alt="Dog5" width="300" height="300" >
+
+            </p>
+            <p class="first">
+
+                <i class="5"> </i> 
+                <br>
+                <div onclick="tets_assign()" class="button_hola"><span>Click here</span></div>
+             </p>
+         </div>
+       
+         <div class="three">
+            <p class="first">
+                <img src="https://usersdogs-ip4weamexa-ew.a.run.app/images/dog/p6.jpeg" alt="Dog6" width="300" height="300" >
+
+            </p>
+            <p class="first">
+                <i class="6"> </i> 
+                <br>
+                <div onclick="tets_assign()" class="button_hola"><span>Click here</span></div>
+             </p>
+         </div>
+         <div class="three">
+            <p class="first">
+                <img src="https://usersdogs-ip4weamexa-ew.a.run.app/images/dog/p7.jpeg" alt="Dog7" width="300" height="300" >
+
+            </p>
+            <p class="first">
+                <i class="7"> </i> 
+                <br>
+                <div onclick="tets_assign()" class="button_hola"><span>Click here</span></div>
+             </p>
+         </div>
+         <div class="three">
+            <p class="first">
+                <img src="https://usersdogs-ip4weamexa-ew.a.run.app/images/dog/p8.jpeg" alt="Dog7" width="300" height="300" >
+
+            </p>
+            <p class="first">
+                <i class="8"> </i>
+                <br>
+                <div onclick="tets_assign()" class="button_hola"><span>Click here</span></div>
+             </p>
+         </div>
+         <div class="three">
+            <p class="first">
+                <img src="https://usersdogs-ip4weamexa-ew.a.run.app/images/dog/p9.jpeg" alt="Dog7" width="300" height="300" >
+
+            </p>
+            <p class="first">
+                <i class="9"> </i>
+                <br>
+                <div onclick="tets_assign()" class="button_hola"><span>Click here</span></div>
+             </p>
+         </div>
+         <div class="three">
+            <p class="first">
+                <img src="https://usersdogs-ip4weamexa-ew.a.run.app/images/dog/p10.jpeg" alt="Dog7" width="300" height="300" >
+
+            </p>
+            <p class="first">
+                <i class="10"> </i>  
+                <br>
+                <div onclick="tets_assign()" class="button_hola"><span>Click here</span></div>
+             </p>
+         </div>
+         <div class="three">
+            <p class="first">
+                <img src="https://usersdogs-ip4weamexa-ew.a.run.app/images/dog/p11.jpeg" alt="Dog7" width="300" height="300" >
+
+            </p>
+            <p class="first">
+                <i class="11"> </i>
+                <br>
+                <div onclick="tets_assign()" class="button_hola"><span>Click here</span></div>
+             </p>
+         </div>
+         <div class="three">
+            <p class="first">
+                <img src="https://usersdogs-ip4weamexa-ew.a.run.app/images/dog/p12.jpeg" alt="Dog7" width="300" height="300" >
+
+            </p>
+            <p class="first">
+                <i class="12"> </i> 
+                <br>
+                <div onclick="tets_assign()" class="button_hola"><span>Click here</span></div>
+             </p>
+         </div>
+
+
+         <script>
+
+        // при нажатию на кнопку
+        document.querySelector('#get').addEventListener('click', () => {
+            getData(1);
+          });
+          //кнопка работает только один раз
+          window.onload = function() {
+          document.getElementById("get").onclick = function() {
+          this.disabled = 'disabled';
+          }}
+          
+          
+          document.querySelector('#get2').addEventListener('click', () => {
+            getData(2);
+          });
+          //кнопка работает только один раз
+          window.onload = function() {
+          document.getElementById("get2").onclick = function() {
+          this.disabled = 'disabled';
+          }}
+          
+       
+           
+          </script>
+
+
+    
+</body>
+
+</html>
